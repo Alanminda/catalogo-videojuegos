@@ -58,7 +58,17 @@
     <!-- GRID DE VIDEOJUEGOS -->
     <section>
       <h2 class="text-lg font-semibold mb-4 text-slate-800">Videojuegos destacados</h2>
- 
+      
+      <!-- Estado de carga -->
+      <div id="estado-carga" class="mb-4 text-slate-600">
+        <p>Cargando videojuegos...</p>
+      </div>
+      
+      <!-- Estado de error -->
+      <div id="estado-error" class="mb-4 text-red-600 hidden">
+        <p>No se pudieron cargar los videojuegos.</p>
+      </div>
+      
       <div id="grid-videojuegos" class="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         
       </div>
